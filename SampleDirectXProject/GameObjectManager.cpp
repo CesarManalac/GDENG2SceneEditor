@@ -114,7 +114,7 @@ GameObject* GameObjectManager::CreatePlane()
         transform->SetScale({ 5, 0.1f, 5 });
     }
 
-    Mesh* mesh = GraphicsEngine::get()->getMeshManager()->CreateMeshFromFile(L"Assets\\Meshes\\box.obj");
+    Mesh* mesh = GraphicsEngine::get()->getMeshManager()->CreateMeshFromFile(L"Assets\\Meshes\\plane.obj");
     //Texture* texture = GraphicsEngine::get()->getTextureManager()->CreateTextureFromFile(L"Assets\\Textures\\brick.png");
 
     if (mesh)
